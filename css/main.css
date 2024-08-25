@@ -592,6 +592,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .about {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .about__container .about__content {
     text-align: center;
   }
@@ -614,6 +618,11 @@ a:hover {
 }
 
 @media (max-width: 488px) {
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .feature__card {
     border-bottom: 2px solid #fff4d8;
     padding: 2rem;
